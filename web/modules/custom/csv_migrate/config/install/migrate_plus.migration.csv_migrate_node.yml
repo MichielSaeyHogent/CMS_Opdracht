@@ -11,11 +11,11 @@ process:
   field_id: Book Id
   field_author: Author
   field_isbn: ISBN
-  field_isbn13: ISBM13
+  field_isbn13: ISBN13
   field_rating: Rating
   field_publisher: Publisher
-  field_number_of_pages: Number of Pages
-  field_year_published: Year Published
+  field_number_of_pages: 'Number of Pages'
+  field_year_published: 'Year Published'
   field_review: My Review
   type:  
     plugin: default_value
