@@ -1,0 +1,24 @@
+id: aten_csv_migrate_node
+label: Aten CSV Migrate example node
+migration_tags:
+  - Aten Migrate CSV
+source:
+  plugin: csv
+  path: modules\custom\csv_migrate\sources\goodreads_library.csv
+  ids: [Book Id]
+process:
+  title: Title
+  field_id: Book Id
+  field_author: Author
+  field_isbn: ISBN
+  field_isbn13: ISBM13
+  field_rating: Rating
+  field_publisher: Publisher
+  field_number_of_pages: Number of Pages
+  field_year_published: Year Published
+  field_review: My Review
+  type:  
+    plugin: default_value
+    default_value: book
+destination:
+  plugin: entity:node
