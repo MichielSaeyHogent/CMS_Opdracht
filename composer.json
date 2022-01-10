@@ -17,9 +17,12 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
+        "drupal/commerce": "^2.28",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
+        "drupal/google_api_client": "4.0",
+        "drupal/inline_entity_form": "1.0-rc6",
         "drupal/migrate_plus": "^5.2",
         "drupal/migrate_source_csv": "^3.4",
         "drupal/migrate_tools": "^5.1",
