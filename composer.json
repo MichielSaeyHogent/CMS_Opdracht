@@ -17,7 +17,11 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
+        "drupal/bootstrap": "^3.23",
         "drupal/commerce": "^2.28",
+        "drupal/commerce_cart_api": "^1.5",
+        "drupal/commerce_cart_flyout": "^1.8",
+        "drupal/commerce_shipping": "^2.2",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",

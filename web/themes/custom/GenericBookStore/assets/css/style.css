@@ -1,0 +1,23 @@
+.region-header .logo {
+    display: flex;
+    flex-shrink: 0;
+    margin-right: auto;
+    height: 100px;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 15px 15px;
+    font-size: 36px;
+    line-height: 20px;
+    height: 60px;
+    color: white;
+}
+
+.region-header {
+    background-color: var(--primaryLight)
+}
+
+.region-header .logo {
+    filter: invert(1);
+}
